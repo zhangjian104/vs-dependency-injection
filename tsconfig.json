@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "commonjs",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"noImplicitAny": true,
+		"experimentalDecorators":true
+	},
+	"include": [
+		"*.ts",
+		"**/*.ts"
+	],
+	"exclude": [
+		"node_modules/**"
+	],
+	"paths": {
+		"/*": [
+			"./*"
+		]
+	}
+}
